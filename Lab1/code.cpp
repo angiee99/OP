@@ -24,7 +24,7 @@ int main(){
   only_w_numbers_file();
   read_file(fin_file);
   longest_substr();
-  
+
   return 0;
 }
 
@@ -162,7 +162,7 @@ int longest_substr(){
                   maxCount = count;
               }
           }
-          else {
+          else{
               prev = line[i];
               count = 1;
           }
